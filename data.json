@@ -5,25 +5,25 @@
     "harga": 95000,
     "custom": {
       "crust": {
-        "label": "Cheese Madness Regular Pizza Crust",
+        "name": "Cheese Madness Regular Pizza Crust",
         "options": [
-          { "name": "StuffedCrust Sausage", "harga": 18000 },
-          { "name": "StuffedCrust Cheese", "harga": 22000 },
-          { "name": "Original", "harga": 0 },
-          { "name": "Cheesy Bites", "harga": 25000 }
+          { "sausage": "StuffedCrust Sausage", "harga": 18000 },
+          { "cheese": "StuffedCrust Cheese", "harga": 22000 },
+          { "Original": "Original", "harga": 0 },
+          { "bites": "Cheesy Bites", "harga": 25000 }
         ]
       },
       "topping": {
-        "label": "Cheese Madness Regular Pizza Topping",
+        "name": "Cheese Madness Regular Pizza Topping",
         "options": {
-          "name": "Cheese Madness",
+          "Madness": "Cheese Madness",
           "harga": 0
         }
       },
       "extraTopping": {
-        "label": "Cheese Madness Regular Topping",
+        "name": "Cheese Madness Regular Topping",
         "options": {
-          "name": "Top Keju Mozzarella Regular",
+          "Mozzarella": "Top Keju Mozzarella Regular",
           "harga": 18000
         }
       }
