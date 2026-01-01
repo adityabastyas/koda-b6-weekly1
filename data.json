@@ -1,0 +1,27 @@
+[
+  {
+    id: 1,
+    name: "cheese Madness Regular Pizza",
+    harga: 95_000,
+    custom: {
+      crust: {
+        label: "Cheese Madness Regular Pizza Crust",
+        options: [
+          { name: "StuffedCrust Sausage", harga: 18_000 },
+          { name: "StuffedCrust Cheese", harga: 22_000 },
+          { name: "Original", harga: 0 },
+          { name: "Cheesy Bites", harga: 25_000 },
+        ],
+      },
+      topping: {
+        label: "Cheese Madness Regular Pizza Topping",
+        options: { name: "Cheese Madness", harga: 0 },
+      },
+      extraTopping: {
+        label: "Cheese Madness Regular Topping",
+        options: { name: "Top Keju Mozzarella Regular", harga: 18_000 },
+      },
+    },
+  },
+];
+
