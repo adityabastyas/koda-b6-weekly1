@@ -1,0 +1,21 @@
+{
+  "name": "weekly1",
+  "version": "1.0.0",
+  "description": "pemilihan makanan ke kranjang\r checkout\r melihat hitori transaksi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "node --watch index.js",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0"
+  }
+}
