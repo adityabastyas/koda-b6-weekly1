@@ -12,10 +12,10 @@ export default defineConfig([
   {
     rules: {
       semi: ["error", "always"],
-      indent: ["error", "2"],
+      indent: ["error", 2],
       quotes : ["error", "double"],
       "no-var": "error",
-      indent: ["error", 2],
+    
       "no-unused-vars": ["warn"],
       "eqeqeq": "error",
       curly: ["error", "all"]
